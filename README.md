@@ -14,7 +14,7 @@
 ## 结论
 ### 实验过程
 - 安装并学习使用QrCode.Net库
-- 对于控制台输出，根据编码得到的QrCode对象的matrix，用“█”和“  ”组成表达二维码的字符串输出
+- 对于控制台输出，根据编码得到的QrCode对象的matrix，用“█”和“　”组成表达二维码的字符串输出
 - 对于文件输出，先用File.ReadAllLines()取得各行信息，对每行信息进行编码后，用GraphicsRenderer类对象的WriteToStream方法以png格式写入输出文件流
 ### 实验结果
 控制台运行结果
